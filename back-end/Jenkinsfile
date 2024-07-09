@@ -9,9 +9,9 @@ pipeline {
         PATH = "${env.JAVA_HOME}\\bin;${env.PATH}"
     }
 
-    trigger{
-        pollSCM('H/6***1-5')
-    }
+    // trigger{
+    //     pollSCM('H/6***1-5')
+    // }
 
     stages {
         stage('clone repository') {
