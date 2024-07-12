@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools{
-        maven 'Maven' // MAVEN
+        maven 'Maven' // MAVEN edit
     }
 
     environment{
