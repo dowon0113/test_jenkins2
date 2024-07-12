@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools{
-        maven 'Maven'//젠킨스 tools의 설정한 Maven 이름
+        maven 'Maven'
     }
 
     environment{
